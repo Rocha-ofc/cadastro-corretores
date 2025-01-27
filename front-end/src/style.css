@@ -1,0 +1,113 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilizando o formulário */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+form h1 {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form table {
+    width: 100%;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+td button {
+    width: 80px;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+td button:hover {
+    background-color: #45a049;
+}
+
+/* Estilizando a tabela */
+#corretores {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#corretores th,
+#corretores td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#corretores th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+}
+
+#corretores tr:hover {
+    background-color: #f1f1f1;
+}
+
+#corretores td {
+    font-size: 0.9rem;
+    color: #333333;
+}
+
+.div-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
